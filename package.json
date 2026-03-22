@@ -1,0 +1,29 @@
+{
+  "name": "skill-store-website",
+  "version": "1.0.0",
+  "description": "AI龙虾技能严选网站 - 天道桐哥 & AI龙虾元龙 联合出品",
+  "main": "server-lite/index.js",
+  "scripts": {
+    "start": "node server-lite/index.js",
+    "dev": "node server-lite/index.js",
+    "crawl": "node server-lite/crawler.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12",
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  },
+  "keywords": [
+    "openclaw",
+    "skills",
+    "ai",
+    "lobster-memory"
+  ],
+  "author": "天道桐哥 & AI龙虾元龙",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/skill-store"
+  }
+}
